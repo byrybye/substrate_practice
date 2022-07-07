@@ -1,4 +1,12 @@
 
+/**
+@author phb
+@date 2022-07-07
+@description 简单网络功能实现 server 端
+启动服务端 cargo run --bin server
+ cargo run --bin client
+*/
+
 use std::thread;
 use std::{
     io::{Read, Write},
