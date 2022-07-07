@@ -3,7 +3,7 @@
 @date 2022-07-07
 @description 简单网络功能实现 client 端
 启动服务端 cargo run --bin server
- cargo run --bin client
+启动客户端 cargo run --bin client
 */
 
 use std::thread;
