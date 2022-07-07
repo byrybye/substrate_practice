@@ -51,7 +51,7 @@ fn main() {
                         //向客户端发送回声消息
                         let _ = stream.write(format!("echo: {}", messge).as_bytes());
                         //如果消息开头是 10 那么 结束一次会话，跳出循环
-                        if messge.starts_with("10") {
+                        if messge.starts_with("3") {
                             println!("结束一次会话: {:#?}", stream);
                             break;
                         }

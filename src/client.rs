@@ -23,7 +23,7 @@ fn main() {
         Ok(mut client) => {
             println!("客户端连接成功");
             //循环10次 消息
-            for i in 0..10 {
+            for i in 0..3 {
                 println!("第{}次，开始发送", i + 1);
                 //构建消息内容
                 let message = format!("{}：hello world", i + 1);
