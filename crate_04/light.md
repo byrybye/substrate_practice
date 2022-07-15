@@ -41,6 +41,7 @@ fn main() {
 }
 ```
 运行命令 </BR>
-cargo run --bin traffic_light
+cargo run --bin traffic_light </BR>
+
 运行结果
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_04/light.png)
