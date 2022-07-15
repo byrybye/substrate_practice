@@ -1,1 +1,8 @@
 /target
+target/.rustc_info.json
+target/.rustc_info.json
+target/debug/.fingerprint/crate_04-244750a2a6c9012a/bin-crate_04
+target/debug/.fingerprint/crate_04-244750a2a6c9012a/bin-crate_04.json
+target/debug/.fingerprint/crate_04-244750a2a6c9012a/bin-crate_04.json
+target/debug/.fingerprint/crate_04-56311fa2df79e440/bin-traffic_light.json
+target/debug/.fingerprint/crate_04-626e6c3f82d4d6e7/test-bin-u32_vec
