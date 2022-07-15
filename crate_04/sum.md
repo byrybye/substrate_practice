@@ -1,5 +1,4 @@
 程序代码
-
 ```
 fn main() {        
     let list1: [u32; 3] = [1, 2, 3];
@@ -27,6 +26,9 @@ fn sum(list: &[u32]) -> Option<u32> {
 }
 
 ```
-运行命令
-cargo run --bin u32_vec    
+
+运行命令 </BR>
+cargo run --bin u32_vec </BR>   
+
+运行结果 </BR>
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_04/sum.png)
