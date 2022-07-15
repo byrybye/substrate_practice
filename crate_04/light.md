@@ -40,7 +40,7 @@ fn main() {
     println!("light: {:#?}  duration: {:#?}" , y, ShangHai::get_duration(y));
 }
 ```
-运行命令 
+运行命令 </BR>
 cargo run --bin traffic_light
-
+运行结果
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_04/light.png)
