@@ -1,14 +1,17 @@
 use std::time::Duration;
 
+//交通信号灯
 #[derive(Debug, Clone, Copy)]
 pub enum TrafficLight {
-    Red,
-    Green,
-    Yellow,
+    Red, //红灯
+    Green,//绿灯
+    Yellow,//黄灯
 }
 
+//计算信号灯 持续时间
 pub trait TrafficLightDuration {
     fn get_duration(light: TrafficLight) -> Duration {
+        //使用 模式匹配处理 
         match light {
             TrafficLight::Red => Duration::from_secs(10),
             TrafficLight::Green => Duration::from_secs(20),

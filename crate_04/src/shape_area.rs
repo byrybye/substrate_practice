@@ -1,39 +1,49 @@
+//图形 trait 包含一个计算面积函数
 trait Shape {
     fn area(&self) -> f32;
 }
 
+//长方形
 #[derive(Debug)]
 struct Rectangle {
     pub width: f32,
     pub height: f32,
 }
+
+//三角形
 #[derive(Debug)]
 struct Triangle {
     pub side: f32,
 }
+
+//原形
 #[derive(Debug)]
 struct Circle {
     pub radius: f32,
 }
 
+//实现Shape
 impl Shape for Rectangle {
     fn area(&self) -> f32 {
         &self.width * &self.height
     }
 }
 
+//实现Shape
 impl Shape for Triangle {
     fn area(&self) -> f32 {
         self.side * 0.5 * 3.0_f32.sqrt() / 2.0 * self.side
     }
 }
 
+//实现Shape
 impl Shape for Circle {
     fn area(&self) -> f32 {
         3.14 * &self.radius * &self.radius
     }
 }
 
+//计算面积函数 必须使用 &dyn 才能动态分发
 fn area(shape: &dyn Shape) -> f32 {
     shape.area()
 }
