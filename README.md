@@ -1,6 +1,6 @@
 # substrate_practice
 
-            
+```
 //求和函数
 fn sum(list: &[u32]) -> Option<u32> {    
     let mut total: u32 = 0;
@@ -15,4 +15,4 @@ fn sum(list: &[u32]) -> Option<u32> {
     }
     Some(total)
 }
-            
+```
