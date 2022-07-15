@@ -63,6 +63,9 @@ fn main() {
 }
 
 ```
-运行命令
-cargo run --bin shape_area     
+
+运行命令 </BR>
+cargo run --bin shape_area     </BR>
+
+运行结果 </BR>
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_04/shape.png)
