@@ -10,9 +10,9 @@ pub enum TrafficLight {
 pub trait TrafficLightDuration {
     fn get_duration(light: TrafficLight) -> Duration {
         match light {
-            TrafficLight::Red => Duration::from_secs(5),
-            TrafficLight::Green => Duration::from_secs(10),
-            TrafficLight::Yellow => Duration::from_secs(3)            
+            TrafficLight::Red => Duration::from_secs(10),
+            TrafficLight::Green => Duration::from_secs(20),
+            TrafficLight::Yellow => Duration::from_secs(5)            
         }
     }
 }
