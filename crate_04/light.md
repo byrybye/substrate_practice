@@ -1,3 +1,5 @@
+程序代码
+
 ```
 use std::time::Duration;
 
@@ -38,5 +40,7 @@ fn main() {
     println!("light: {:#?}  duration: {:#?}" , y, ShangHai::get_duration(y));
 }
 ```
+运行命令 
+cargo run --bin traffic_light
 
-![image]https://github.com/byrybye/substrate_practice/blob/main/crate_04/light.png
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_04/light.png)
