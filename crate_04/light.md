@@ -1,5 +1,4 @@
 程序代码
-
 ```
 use std::time::Duration;
 
@@ -40,6 +39,7 @@ fn main() {
     println!("light: {:#?}  duration: {:#?}" , y, ShangHai::get_duration(y));
 }
 ```
+
 运行命令 </BR>
 cargo run --bin traffic_light </BR>
 
