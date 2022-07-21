@@ -129,10 +129,13 @@ pub mod pallet {
 操作记录截图
 创建
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/create.png)
+
 转移
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/transfer.png)
+
 撤销
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/revoke.png)
-操作日志
+
+操作日志（一次完整的操作记录从创建、转移到撤销）
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/operation_log.png)
 
