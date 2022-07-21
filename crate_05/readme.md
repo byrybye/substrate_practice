@@ -121,6 +121,18 @@ pub mod pallet {
 ./node-template --dev --tmp
 
 程序运行截图1
-
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/screen1.png)
 
 程序运行截图2
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/screen2.png)
+
+操作记录截图
+创建
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/create.png)
+转移
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/transfer.png)
+撤销
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/revoke.png)
+操作日志
+![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/operation_log.png)
+
