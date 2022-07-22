@@ -127,6 +127,7 @@ pub mod pallet {
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/screen2.png)
 
 操作记录截图
+
 创建
 ![image](https://github.com/byrybye/substrate_practice/blob/main/crate_05/create.png)
 
